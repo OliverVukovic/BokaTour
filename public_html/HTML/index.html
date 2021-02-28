@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>BOKA TOUR</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="../IMAGE/boka-logo1.png"  rel="shortcut icon" type="image/x-icon">
+        <link href="../CSS/main.css" rel="stylesheet" type="text/css"/>
+    </head>
+    
+    <body>
+                  
+        <header>
+            <div id="logo">
+                <a href="https://bokatour.rs/" title="BokaTour"> 
+                    <img src="../IMAGE/boka-logo.png" width="100" height="100" alt="BokaTour"> </a>
+            </div>    
+        </header>
+
+        <nav> 
+            <div class="container">
+                <a href="file:///C:/Users/Ivana/Desktop/BokaTour-projekat/public_html/HTML/index.html">Naslovna</a>
+                <a href="file:///C:/Users/Ivana/Desktop/BokaTour-projekat/public_html/HTML/izleti.html">Izleti</a>
+                <a href="file:///C:/Users/Ivana/Desktop/BokaTour-projekat/public_html/HTML/rent-a-boat.html">Rent-a-boat</a>
+                <a href="file:///C:/Users/Ivana/Desktop/BokaTour-projekat/public_html/HTML/blog.html">Blog</a>
+                <a href="file:///C:/Users/Ivana/Desktop/BokaTour-projekat/public_html/HTML/kontakt.html">Kontakt</a>   
+            </div>    
+        </nav>
+        <br><br>
+            <div class="slideshow-container">
+
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 6</div>
+                <img src="../IMAGE/gospa1.png" style="width:100%">
+              <div class="text">Gospa od Škrpjela</div>
+            </div>
+
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 6</div>
+                <img src="../IMAGE/kotor2.png" style="width:100%">
+              <div class="text">Kotor</div>
+            </div>
+
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 6</div>
+                <img src="../IMAGE/porto1.png" style="width:100%">
+              <div class="text">Porto Montenegro</div>
+            </div>
+                
+            <div class="mySlides fade">
+              <div class="numbertext">4 / 6</div>
+                <img src="../IMAGE/perast2.png" style="width:100%">
+              <div class="text">Perast</div>
+            </div>
+
+            <div class="mySlides fade">
+              <div class="numbertext">5 / 6</div>
+                <img src="../IMAGE/mamula1.png" style="width:100%">
+              <div class="text">Mamula</div>
+            </div>
+
+            <div class="mySlides fade">
+              <div class="numbertext">6 / 6</div>
+                <img src="../IMAGE/plaza2.png" style="width:100%">
+              <div class="text">.</div>
+            </div>    
+
+            </div>
+            <br>
+
+            <div style="text-align: center">
+                <span class="dot"></span> 
+                <span class="dot"></span> 
+                <span class="dot"></span> 
+                <span class="dot"></span> 
+                <span class="dot"></span> 
+                <span class="dot"></span> 
+            </div>
+
+        <script>
+            var slideIndex = 0;
+            showSlides();
+
+            function showSlides() {
+              var i;
+              var slides = document.getElementsByClassName("mySlides");
+              var dots = document.getElementsByClassName("dot");
+              for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+              }
+              slideIndex++;
+              if (slideIndex > slides.length) {slideIndex = 1}    
+              for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";  
+              dots[slideIndex-1].className += " active";
+              setTimeout(showSlides, 3000); // Change image every 3 seconds
+            }
+        </script>
+
+        <footer>
+            <h3>BOKA TOUR 2020 </h3>
+         
+                <a href="https://www.facebook.com/oliver.vukovic" target="_blank"> <img src="../IMAGE/fb-foto.png" alt="Facebook" width="20" height="20"> </a>
+                <a href="https://www.instagram.com/bokatour/" target="_blank"> <img src="../IMAGE/instagram-foto.jpg" alt="Instagram" width="20" height="20"> </a>
+                <a href="https://www.linkedin.com/in/oliver-vukovic-20b1712b/" target="_blank"> <img src="../IMAGE/linkedin-foto.jpg" alt="Linkedin" width="20" height="20"> </a>
+  
+                <hr>
+            <div>
+        Copyright © Sva prava su zadržana.
+            </div>
+        </footer>
+            
+    </body>
+</html>

@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+    font-family: Calibri, Helvetica, Arial, sans-serif; 
+    margin: 0 auto;
+    background: url('../IMAGE/pozadina1.jpg')no-repeat;
+    padding-left: 180px;
+    padding-right: 180px;
+    padding-top: 20px;
+    height: 100%;
+}
+
+/* Style the header */
+#zaglavlje {
+    padding: 5px 10px;
+    height: 155px;
+    border-bottom: 1px solid #d3d3d3;
+    overflow: no-content;
+    min-width: 400px;
+    background-color: #000033;
+    color: white;
+}
+
+ div#zaglavlje div {
+    display: inline-block;
+    padding: 1% 0;
+    margin: 0 3%;
+    text-align: center;
+    border: none; /* Useful for positioning */
+    font-size: 20px;
+}
+
+#logo {
+    color: #08a3d9;
+    width: 20%;
+    border-color: red; 
+}
+
+#zaglavlje-middle {
+    width: 30%;
+    border-color: green; 
+}
+
+#zaglavlje-right {
+    width: 30%;
+    border-color: blue;
+}
+
+
+
+        
+
+/* Footer */
+footer {
+    padding: 20px;
+    text-align: center;
+    background: #000033;
+    color: whitesmoke;
+}
+
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+#kontakti {
+  margin:inherit;
+  border: none;
+  padding-top: 30px;
+  text-align: center;
+  width: 100%;
+}
+
+.left {
+    
+}
+.right {
+    
+}
+.up {
+  background-color: lightgrey;
+  width: 200px;
+  border: 10px solid blue;
+  padding: 30px;
+  margin: 20px; 
+}
+.down {
+  background-color: lightgrey;
+  width: 200px;
+  border: 10px solid blue;
+  padding: 30px;
+  margin: 20px;
+}
+
+aside {
+  float: left;
+  width: 25%;
+  height: 100%;
+  background: #ccccff;
+  padding: 20px;
+  padding-top: 100px;
+  font-style: italic;
+  display: block;
+  font-size: 20px;
+}
+
+article {
+  float: left;
+  padding-left: 40px;
+  width: 75%;
+  background-color: white;
+  height: 100%;
+}
+
+
+
+
+
